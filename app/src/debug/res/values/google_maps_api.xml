@@ -1,0 +1,9 @@
+<resources>
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
+        AIzaSyA61YoIqmvu6My1O0rfczSaFEOEe0cj_pc
+    </string>
+    <string name="facebook_key" translatable="false" templateMergeStrategy="preserve">
+        1113954205283146
+    </string>
+
+</resources>

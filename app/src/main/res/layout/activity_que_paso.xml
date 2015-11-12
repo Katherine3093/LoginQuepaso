@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.katherine.noviembre.que_pasoActivity">
+
+    <LinearLayout
+        android:id="@+id/cargando"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/contenedor">
+
+        <ImageView
+            android:layout_width="384dp"
+            android:layout_height="196dp"
+            android:background="@drawable/quepaso" />
+
+
+        <CheckBox
+            android:id="@+id/pinchazo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pinchazo" />
+
+        <CheckBox
+            android:id="@+id/cadena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ruptura de cadena" />
+
+        <CheckBox
+            android:id="@+id/cambio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roptura de cambio" />
+
+        <CheckBox
+            android:id="@+id/aire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sin aire" />
+
+        <CheckBox
+            android:id="@+id/frenos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sin frenos" />
+
+
+        <Button
+            android:layout_width="365dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:background="#38cddcda"
+            android:onClick="enviar"
+            android:text="Enviar" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
